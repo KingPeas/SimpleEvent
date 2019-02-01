@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Planet
+  m_Shader: {fileID: 2, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 20e40d3b837b2014e9b2fbf595bff5af, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 25ef98906473ea149ab1f1a1a762c289, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .00999999978
+      data:
+        first:
+          name: _Size
+        second: .159999996
+      data:
+        first:
+          name: _Falloff
+        second: 4.98999977
+      data:
+        first:
+          name: _FalloffPlanet
+        second: .409999996
+      data:
+        first:
+          name: _Transparency
+        second: 161.919998
+      data:
+        first:
+          name: _TransparencyPlanet
+        second: -3.88000011
+      data:
+        first:
+          name: _RimPower
+        second: 7.18269253
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: .309803933}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmoColor
+        second: {r: .556153595, g: .554466486, b: .567164183, a: .286274523}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .174824715, g: 0, b: 1, a: .721568644}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
